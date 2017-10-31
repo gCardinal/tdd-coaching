@@ -1,0 +1,21 @@
+{
+  "name": "gcardinal/tdd-coaching",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Guyllaume Cardinal",
+      "email": "guyllaume.cardinal@majisti.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "": "src/",
+      "Test": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^4.2",
+    "phpspec/prophecy": "^1.7"
+  }
+}
