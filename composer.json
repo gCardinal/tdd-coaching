@@ -16,6 +16,7 @@
   },
   "require-dev": {
     "phpspec/phpspec": "^4.2",
-    "phpspec/prophecy": "^1.7"
+    "phpspec/prophecy": "^1.7",
+    "phake/phake": "^3.0"
   }
 }
