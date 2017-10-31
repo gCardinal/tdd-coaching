@@ -25,9 +25,11 @@ class FizBuzzSpec extends ObjectBehavior {
 
   public function it_should_return_a_sequence_with_buzz() {
     $this->getSequence(5)->shouldContain('buzz');
+    $this->getSequence(3, 9)->shouldContain('buzz');
   }
 
   public function it_should_return_a_sequence_with_fizbuzz() {
     $this->getSequence(15)->shouldContain('fizbuzz');
+    $this->getSequence(3, 29)->shouldContain('fizbuzz');
   }
 }
