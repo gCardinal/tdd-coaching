@@ -3,10 +3,10 @@
 class FizBuzz
 {
 
-  public function getSequence(int $toGenerate): array {
+  public function getSequence(int $toGenerate, int $start = 1): array {
     $sequence = [];
 
-    for($i = 1; $i <= $toGenerate; $i++) {
+    for($i = $start; $i <= $toGenerate; $i++) {
       if($i == 15) {
         $sequence[] = 'fizbuzz';
         continue;
