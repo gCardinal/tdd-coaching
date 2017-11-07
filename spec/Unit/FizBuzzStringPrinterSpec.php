@@ -1,6 +1,6 @@
 <?php
 
-namespace spec;
+namespace spec\Unit;
 
 use FizBuzz;
 use FizBuzzStringPrinter;

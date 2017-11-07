@@ -18,5 +18,9 @@
     "phpspec/phpspec": "^4.2",
     "phpspec/prophecy": "^1.7",
     "phake/phake": "^3.0"
+  },
+  "require": {
+    "phpunit/phpunit": "^6.4",
+    "limedeck/phpunit-detailed-printer": "^3.0"
   }
 }

@@ -1,1 +1,6 @@
 formatter.name: pretty
+suites:
+  unit:
+    spec_prefix: spec\Unit
+    src_path: %paths.config%/src
+    spec_path: %paths.config%
