@@ -16,8 +16,13 @@ sh bin/composer.sh install
 ```
 
 ## Running the tests
+### Unit
 ```
 sh bin/phpspec.sh run
+```
+### Integration
+```
+sh bin/phpunit.sh
 ```
 
 [1]: http://www.cogeco.ca
